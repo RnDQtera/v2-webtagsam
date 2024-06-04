@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.004.002 Set role Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0cb0ae79-89b7-4491-84fc-64b7f8766843</testCaseGuid>
+</TestCaseEntity>

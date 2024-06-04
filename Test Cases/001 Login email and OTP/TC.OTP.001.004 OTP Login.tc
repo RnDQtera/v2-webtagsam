@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.OTP.001.004 OTP Login</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>dd0c543a-3082-473f-be0c-8dad24789946</testCaseGuid>
-</TestCaseEntity>

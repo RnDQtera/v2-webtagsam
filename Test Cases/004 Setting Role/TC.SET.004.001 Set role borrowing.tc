@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.SET.004.001 Set role borrowing</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>45e2e7f3-9eb3-4324-b5a0-a60c72ae10f5</testCaseGuid>
-</TestCaseEntity>

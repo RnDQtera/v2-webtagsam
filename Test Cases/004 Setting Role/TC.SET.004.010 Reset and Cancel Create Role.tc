@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.SET.004.010 Reset and Cancel Create Role</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7510b9ff-f1fe-488d-8181-5fa87722946f</testCaseGuid>
-</TestCaseEntity>
