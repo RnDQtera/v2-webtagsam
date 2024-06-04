@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OBJ.010.017 Active Edit Manage Depreciation Method</name>
+   <tag></tag>
+   <elementGuidId>0f45deb8-ab6e-4f63-99c5-717ce0386eec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/main/div/div/div[2]/div/div/form/div[1]/div/div[2]/div[1]/table/tbody/tr[5]/td[4]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

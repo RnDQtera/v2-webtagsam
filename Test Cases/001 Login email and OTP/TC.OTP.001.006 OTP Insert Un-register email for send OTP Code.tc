@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.OTP.001.006 OTP Insert Un-register email for send OTP Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd8f1ed6-4a1c-4576-957e-87a563b752bd</testCaseGuid>
+</TestCaseEntity>
