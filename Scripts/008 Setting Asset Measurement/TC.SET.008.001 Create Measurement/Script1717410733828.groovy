@@ -66,3 +66,6 @@ WebUI.click(findTestObject('016 Setting Asset Name - Measurement/OBJ.016.005 Sta
 '\r\n'
 WebUI.click(findTestObject('016 Setting Asset Name - Measurement/OBJ.016.006 Submit Measuement'), FailureHandling.STOP_ON_FAILURE)
 
+'\r\n'
+WebUI.takeScreenshot('C:\\Users\\aplikasi internal\\Documents\\Clone TS V2\\v2-webtagsam\\Screenshot\\TC.SET.008.001', FailureHandling.STOP_ON_FAILURE)
+
