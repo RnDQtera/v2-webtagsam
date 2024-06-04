@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.006.008 Detail Asset Name, Update Depreciation Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98533d30-6fdf-4714-820c-00eb48cfd06f</testCaseGuid>
+</TestCaseEntity>

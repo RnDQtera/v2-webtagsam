@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.006.005 Change Log Data Table (Search Filter and Download)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec582c43-04c8-4c28-897f-26f1ae18f55b</testCaseGuid>
+</TestCaseEntity>
