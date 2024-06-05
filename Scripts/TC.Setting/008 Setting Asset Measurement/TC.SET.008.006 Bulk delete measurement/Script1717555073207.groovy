@@ -51,15 +51,37 @@ WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 '\r\n'
 WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.007 Search'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 '\r\n'
-WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), 'QA')
+WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), 'A1')
 
 '\r\n'
 WebUI.sendKeys(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), Keys.chord(Keys.ENTER))
 
-'\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.009 Download'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.takeScreenshot('C:\\Users\\aplikasi internal\\Documents\\Clone TS V2\\Screenshot/TC.SET.008.002.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.029 CB 1'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.030 CB 2'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.031 Bulk action'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.032 Bulk delete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.028 Submit delete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.takeScreenshot('C:\\Users\\aplikasi internal\\Documents\\Clone TS V2\\Screenshot/TC.SET.008.006.png', FailureHandling.STOP_ON_FAILURE)
 

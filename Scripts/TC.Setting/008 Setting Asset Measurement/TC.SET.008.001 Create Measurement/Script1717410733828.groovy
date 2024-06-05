@@ -58,11 +58,14 @@ WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.0
 WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.004 Clear Field'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.003 Input Field Measurement'), 'QA Testing Measurement')
+WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.003 Input Field Measurement'), 'Test create by QA')
 
 '\r\n'
 WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.005 Stay on this form after submit'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
 WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.006 Submit Measuement'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.takeScreenshot('C:\\Users\\aplikasi internal\\Documents\\Clone TS V2\\Screenshot/TC.SET.008.001.png', FailureHandling.STOP_ON_FAILURE)
 

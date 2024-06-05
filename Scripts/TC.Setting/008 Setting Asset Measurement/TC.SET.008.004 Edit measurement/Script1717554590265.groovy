@@ -52,14 +52,25 @@ WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.007 Search'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), 'QA')
+WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), 'A1')
 
 '\r\n'
 WebUI.sendKeys(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), Keys.chord(Keys.ENTER))
 
 '\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.009 Download'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.023 Single option'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.takeScreenshot('C:\\Users\\aplikasi internal\\Documents\\Clone TS V2\\Screenshot/TC.SET.008.002.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.024 Option edit'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.026 Input edit'), 'A2 Edited')
+
+'\r\n'
+WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.027 Save edit'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.takeScreenshot('C:\\Users\\aplikasi internal\\Documents\\Clone TS V2\\Screenshot/TC.SET.008.004.png', FailureHandling.STOP_ON_FAILURE)
 
