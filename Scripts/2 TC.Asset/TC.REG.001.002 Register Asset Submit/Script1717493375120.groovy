@@ -93,10 +93,6 @@ WebUI.click(findTestObject('Asset/01 Register Asset/OBJ.001.021 Choose Custom Fi
 
 WebUI.setText(findTestObject('Asset/01 Register Asset/OBJ.001.022 Input Qty'), '3')
 
-WebUI.click(findTestObject('Asset/01 Register Asset/OBJ.001.023 Select Custom Field 2'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Asset/01 Register Asset/OBJ.001.024 Choose Custom Field 2'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.setText(findTestObject('Asset/01 Register Asset/OBJ.001.025 Input Custom FIeld 3'), '90')
 
 WebUI.setText(findTestObject('Asset/01 Register Asset/OBJ.001.026 Input Custom FIeld 4'), '90')

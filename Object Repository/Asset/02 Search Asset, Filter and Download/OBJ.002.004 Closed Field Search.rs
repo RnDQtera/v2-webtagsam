@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.001.027 Input Custom FIeld 5</name>
+   <name>OBJ.002.004 Closed Field Search</name>
    <tag></tag>
-   <elementGuidId>49ea9f21-ba64-4ecc-8de3-e443c30dd8b2</elementGuidId>
+   <elementGuidId>9b437459-75f2-4757-a84b-f102f4f0a5c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/form/div/div/div[14]/div/span/input</value>
+         <value>/html/body/main/div/div/div[2]/div/div/div/div[1]/div/div/form/i[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

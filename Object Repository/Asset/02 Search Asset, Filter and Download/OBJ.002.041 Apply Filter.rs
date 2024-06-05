@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.001.027 Input Custom FIeld 5</name>
+   <name>OBJ.002.041 Apply Filter</name>
    <tag></tag>
-   <elementGuidId>49ea9f21-ba64-4ecc-8de3-e443c30dd8b2</elementGuidId>
+   <elementGuidId>9855c6b2-8197-4e04-b1ee-adf15652a545</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/form/div/div/div[14]/div/span/input</value>
+         <value>/html/body/main/div/div/div[2]/div/div/div/div[2]/div[14]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

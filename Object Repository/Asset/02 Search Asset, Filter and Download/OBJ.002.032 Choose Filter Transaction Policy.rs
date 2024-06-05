@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.001.027 Input Custom FIeld 5</name>
+   <name>OBJ.002.032 Choose Filter Transaction Policy</name>
    <tag></tag>
-   <elementGuidId>49ea9f21-ba64-4ecc-8de3-e443c30dd8b2</elementGuidId>
+   <elementGuidId>d20d181a-557a-48df-9ba8-ed2e1f2c1bdb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/form/div/div/div[14]/div/span/input</value>
+         <value>/html/body/div[5]/div[2]/ul/li[1]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
