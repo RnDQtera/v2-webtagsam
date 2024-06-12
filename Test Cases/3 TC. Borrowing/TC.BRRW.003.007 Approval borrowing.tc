@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BRRW.003.007 Approval borrowing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5efbdf83-e99f-4e25-b42e-b583be1c10ac</testCaseGuid>
+</TestCaseEntity>

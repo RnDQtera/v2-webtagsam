@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.REG.001.004 Change Log in Available Asset</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>06ecbf97-e4ac-4dc7-9f6e-0d5d9eff300e</testCaseGuid>
-</TestCaseEntity>

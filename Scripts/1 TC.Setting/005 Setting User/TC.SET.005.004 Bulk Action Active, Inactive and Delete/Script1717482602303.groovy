@@ -25,37 +25,37 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/011 Create and Delete User/OBJ.011.001 Tab User'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/011 Create and Delete User/OBJ.011.001 Tab User'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/012 Serach, Download and bulk action Data Table/OBJ.012.002 Select Asset for Inactive Asset Numb1'), 
+WebUI.click(findTestObject('02 Setting/012 Serach, Download and bulk action Data Table/OBJ.012.002 Select Asset for Inactive Asset Numb1'), 
     FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/012 Serach, Download and bulk action Data Table/OBJ.012.003 Select Asset for Inactive Asset Numb2'), 
+WebUI.click(findTestObject('02 Setting/012 Serach, Download and bulk action Data Table/OBJ.012.003 Select Asset for Inactive Asset Numb2'), 
     FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/012 Serach, Download and bulk action Data Table/OBJ.012.004 Button Bulk Action'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/012 Serach, Download and bulk action Data Table/OBJ.012.004 Button Bulk Action'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/012 Serach, Download and bulk action Data Table/OBJ.012.005 Select Active or Inactive'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/012 Serach, Download and bulk action Data Table/OBJ.012.005 Select Active or Inactive'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/012 Serach, Download and bulk action Data Table/OBJ.012.006 Confirm Inactive Asset'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/012 Serach, Download and bulk action Data Table/OBJ.012.006 Confirm Inactive Asset'), FailureHandling.STOP_ON_FAILURE)
 

@@ -25,89 +25,89 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/014 Setting Asset Name/OBJ.013.001 Tab Asset Name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/014 Setting Asset Name/OBJ.013.001 Tab Asset Name'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.001 Tab Brand'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.001 Tab Brand'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.002 Add New Brand'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.002 Add New Brand'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.003 Create Brand Name'), 'QA Brand New')
+WebUI.setText(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.003 Create Brand Name'), 'QA Brand New')
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.004 Select Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.004 Select Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.005 Search Category'), 'Electronics')
+WebUI.setText(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.005 Search Category'), 'Electronics')
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.006 Choose Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.006 Choose Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.007 Clear Field'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.007 Clear Field'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.008 Cancel Select Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.008 Cancel Select Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.004 Select Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.004 Select Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.005 Search Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.005 Search Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.006 Choose Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.006 Choose Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.009 Submit Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.009 Submit Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.010 Input Model Type'), 'Model Testing')
+WebUI.setText(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.010 Input Model Type'), 'Model Testing')
 
 '\r\n'
-WebUI.sendKeys(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.010 Input Model Type'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.010 Input Model Type'), Keys.chord(Keys.ENTER))
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.011 Clear Field'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.011 Clear Field'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.003 Create Brand Name'), 'QA Brand New')
+WebUI.setText(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.003 Create Brand Name'), 'QA Brand New')
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.004 Select Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.004 Select Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.005 Search Category'), 'Electronics')
+WebUI.setText(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.005 Search Category'), 'Electronics')
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.006 Choose Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.006 Choose Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.009 Submit Category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.009 Submit Category'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.010 Input Model Type'), 'Model Testing')
+WebUI.setText(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.010 Input Model Type'), 'Model Testing')
 
 '\r\n'
-WebUI.sendKeys(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.010 Input Model Type'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.010 Input Model Type'), Keys.chord(Keys.ENTER))
 
 '\r\n'
-WebUI.click(findTestObject('Setting/015 Setting Asset Name - Brand/OBJ.015.012 Submit Create Brand'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/015 Setting Asset Name - Brand/OBJ.015.012 Submit Create Brand'), FailureHandling.STOP_ON_FAILURE)
 

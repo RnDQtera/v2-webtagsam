@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.REG.002.003 Search Filter and Download in All Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7cc7ed5b-bc5d-47ba-ba76-adfafa8e0659</testCaseGuid>
+</TestCaseEntity>

@@ -25,60 +25,60 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/014 Setting Asset Name/OBJ.013.001 Tab Asset Name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/014 Setting Asset Name/OBJ.013.001 Tab Asset Name'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.001 Tab Measurement'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.001 Tab Measurement'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.007 Search'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.007 Search'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), 'A1')
+WebUI.setText(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), 'A1')
 
 '\r\n'
-WebUI.sendKeys(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.008 Input search'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.029 CB 1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.029 CB 1'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.030 CB 2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.030 CB 2'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.031 Bulk action'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.031 Bulk action'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.032 Bulk delete'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.032 Bulk delete'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/016 Setting Asset Name - Measurement/OBJ.016.028 Submit delete'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/016 Setting Asset Name - Measurement/OBJ.016.028 Submit delete'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

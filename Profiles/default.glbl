@@ -29,4 +29,14 @@
       <initValue>'passbaru'</initValue>
       <name>passv2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qa1@mailnesia.com'</initValue>
+      <name>id2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Moderator12@'</initValue>
+      <name>Pw2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

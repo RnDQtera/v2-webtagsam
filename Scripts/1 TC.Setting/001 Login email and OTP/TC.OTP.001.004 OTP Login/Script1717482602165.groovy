@@ -25,13 +25,13 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Setting/001 Login and OTP/OBJ.001.004 Login OTP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.004 Login OTP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.005 Field Email'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.005 Field Email'), GlobalVariable.id)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/001 Login and OTP/OBJ.001.006 Button Request OTP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.006 Button Request OTP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
