@@ -29,4 +29,9 @@
       <initValue>'passbaru'</initValue>
       <name>passv2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Company user00006</description>
+      <initValue>'userc4@mailnesia.com'</initValue>
+      <name>emailc4</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
