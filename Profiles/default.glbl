@@ -4,39 +4,4 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://dev-console-v2.tagsamurai.com/auth'</initValue>
-      <name>URL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'jborn@mailnesia.com'</initValue>
-      <name>id</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Moderator12@'</initValue>
-      <name>pass</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'qa1@mailnesia.com'</initValue>
-      <name>id2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Moderator12@'</initValue>
-      <name>Pw2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'willsmth@mailnesia.com'</initValue>
-      <name>borrower</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Moderator12@'</initValue>
-      <name>pwborrower</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>
