@@ -52,7 +52,7 @@ WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.015 Filter Borr
 WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.016 Select Status Filter on Borrowing Transaction'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('03 Transaction/001 Borrowing/OBJ.001.017 Search Status Filter on Borrowing Transaction'), 
-    'Waiting for Approval')
+    'Waiting for Handover')
 
 WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.018 Choose Status Filter on Borrowing Transaction'), FailureHandling.STOP_ON_FAILURE)
 
@@ -60,11 +60,7 @@ WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.020 Apply Filte
 
 WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.021 Single Action Borrowing Transation'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.027 Detail Data Transaction Borrowing'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.041 Action Handover'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.028 Select More Approver'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.030 Closed Detail Approver'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.029 Closed Detail Transaction'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.042 Next for Verify Asset'), FailureHandling.STOP_ON_FAILURE)
 

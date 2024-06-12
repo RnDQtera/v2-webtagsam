@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dev-console-v2.tagsamurai.com/auth/login'</initValue>
+      <initValue>'https://dev-console-v2.tagsamurai.com/auth'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,17 +21,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'userv2@mailnesia.com'</initValue>
-      <name>usernamev2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'passbaru'</initValue>
-      <name>passv2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-<<<<<<< HEAD
-      <description></description>
       <initValue>'qa1@mailnesia.com'</initValue>
       <name>id2</name>
    </GlobalVariableEntity>
@@ -39,10 +28,15 @@
       <description></description>
       <initValue>'Moderator12@'</initValue>
       <name>Pw2</name>
-=======
-      <description>Company user00006</description>
-      <initValue>'userc4@mailnesia.com'</initValue>
-      <name>emailc4</name>
->>>>>>> 68b7e37bcd4546eab6037250aea7b61486c0b547
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'willsmth@mailnesia.com'</initValue>
+      <name>borrower</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Moderator12@'</initValue>
+      <name>pwborrower</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

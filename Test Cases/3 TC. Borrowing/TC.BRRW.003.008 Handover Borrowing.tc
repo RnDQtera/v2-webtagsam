@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.BRRW.003.005 Detail Borrowing</name>
+   <name>TC.BRRW.003.008 Handover Borrowing</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5efbdf83-e99f-4e25-b42e-b583be1c10ac</testCaseGuid>
+   <testCaseGuid>01199a23-bd05-40c2-a398-1f5d7b4e74b7</testCaseGuid>
 </TestCaseEntity>
