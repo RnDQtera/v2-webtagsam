@@ -41,9 +41,11 @@ WebUI.click(findTestObject('Asset/001 Register Asset/OBJ.001.002 Menu All Asset'
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Asset/003 Change Log/OBJ.003.001 Button Changelog'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Asset/003 Change Log/OBJ.003.020 Tab Available'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Asset/003 Change Log/OBJ.003.001 Button Changelog'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Asset/003 Change Log/OBJ.003.002 Search Data Changelog'), FailureHandling.STOP_ON_FAILURE)
 
