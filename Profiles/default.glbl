@@ -30,6 +30,7 @@
       <name>passv2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
       <description></description>
       <initValue>'qa1@mailnesia.com'</initValue>
       <name>id2</name>
@@ -38,5 +39,10 @@
       <description></description>
       <initValue>'Moderator12@'</initValue>
       <name>Pw2</name>
+=======
+      <description>Company user00006</description>
+      <initValue>'userc4@mailnesia.com'</initValue>
+      <name>emailc4</name>
+>>>>>>> 68b7e37bcd4546eab6037250aea7b61486c0b547
    </GlobalVariableEntity>
 </GlobalVariableEntities>

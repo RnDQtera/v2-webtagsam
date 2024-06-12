@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.017.029 Button filter</name>
+   <name>OBJ.018.003 Option M Dropdown</name>
    <tag></tag>
-   <elementGuidId>55f45f84-5132-4a40-ba99-da891b2b6f59</elementGuidId>
+   <elementGuidId>1e3b04b1-03c4-40dd-a17f-4dec9ea9e329</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div[7]/div/ul/li[3]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[1]/button[2]/i</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
