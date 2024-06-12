@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.REG.001.002 Register Asset Submit</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>fd4b6fae-3ea7-4dd3-8eb6-f453b45ab7ce</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BRRW.003.003 Initiation from Available Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08e24c47-75cc-4c5c-9b6d-5cce92b1ab79</testCaseGuid>
+</TestCaseEntity>

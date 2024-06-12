@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BRRW.003.002 Initiation from pre-list</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>abd09843-8fc8-4bc1-8e62-f7506755d4ec</testCaseGuid>
+</TestCaseEntity>

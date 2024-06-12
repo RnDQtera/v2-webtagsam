@@ -25,35 +25,35 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.003 Select Group Setting'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.003 Select Group Setting'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.026 Select all group'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.026 Select all group'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.027 Select Bulk Action'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.027 Select Bulk Action'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.029 Bulk Action Disable Dispose'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.029 Bulk Action Disable Dispose'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.026 Select all group'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.026 Select all group'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.027 Select Bulk Action'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.027 Select Bulk Action'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.028 Bulk Action Enable Dispose'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.028 Bulk Action Enable Dispose'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Scre/TC.SET.003.005 Bulk Action Disposal.png', FailureHandling.STOP_ON_FAILURE)
 

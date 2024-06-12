@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BRRW.003.004 Edit Transaction (Waiting Approval Transaction)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12658479-033d-4d46-aeb6-55adb8c2a839</testCaseGuid>
+</TestCaseEntity>

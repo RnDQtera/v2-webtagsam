@@ -25,71 +25,71 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
 
-WebUI.setText(findTestObject('Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.002 Create'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.002 Create'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.003 Input create'), 'Test textarea')
+WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.003 Input create'), 'Test textarea')
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.004 Dropdown'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.004 Dropdown'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.012 Option textarea'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.012 Option textarea'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.005 Yes req'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.005 Yes req'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.006 Select category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.006 Select category'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.007 Input Search cat'), 'For testing')
+WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.007 Input Search cat'), 'For testing')
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.008 Select cat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.008 Select cat'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.009 Button select cat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.009 Button select cat'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.010 Stay on this form check'), 
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.010 Stay on this form check'), 
     FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('Setting/017 Setting Custom Field - General Information/OBJ.017.011 Submit create'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.011 Submit create'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

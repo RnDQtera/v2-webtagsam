@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.BRRW.003.006 Cancel Borrowing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51c3e3c1-efd7-4660-8ec4-5e813bdf13fa</testCaseGuid>
+</TestCaseEntity>

@@ -25,13 +25,13 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Setting/002 Forgot Password/OBJ.002.001 Button forgot password'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/002 Forgot Password/OBJ.002.001 Button forgot password'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Setting/002 Forgot Password/OBJ.002.002 Fill email for confirm forgot pass'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/002 Forgot Password/OBJ.002.002 Fill email for confirm forgot pass'), GlobalVariable.id)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Setting/002 Forgot Password/OBJ.002.003 Button Send Email for Forgot Pass'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/002 Forgot Password/OBJ.002.003 Button Send Email for Forgot Pass'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Scre/TC.Log.001.007 Forgot Password.png', FailureHandling.STOP_ON_FAILURE)
 
