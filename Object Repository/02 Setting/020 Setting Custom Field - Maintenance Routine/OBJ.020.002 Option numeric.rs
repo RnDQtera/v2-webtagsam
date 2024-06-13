@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.017.038 Search</name>
+   <name>OBJ.020.002 Option numeric</name>
    <tag></tag>
-   <elementGuidId>5dfeea4b-d4dd-4f86-a18c-88c97d137c1f</elementGuidId>
+   <elementGuidId>a98f753a-5bd1-479d-a75c-ea11e2b45892</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/div[1]/button[1]/i</value>
+         <value>/html/body/div[7]/div/ul/li[7]/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

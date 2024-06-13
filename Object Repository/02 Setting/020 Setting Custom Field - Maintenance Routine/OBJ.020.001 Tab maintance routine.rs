@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.017.038 Search</name>
+   <name>OBJ.020.001 Tab maintance routine</name>
    <tag></tag>
-   <elementGuidId>5dfeea4b-d4dd-4f86-a18c-88c97d137c1f</elementGuidId>
+   <elementGuidId>167eafab-081a-443a-a320-2789a5f0740a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div/div[1]/button[1]/i</value>
+         <value>//*[@id=&quot;single-spa-application:@tagsamurai/ts-mfe-settings-custom-field&quot;]/div/div[2]/div/div/div[1]/ul/li[4]/a/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

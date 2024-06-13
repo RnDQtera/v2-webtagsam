@@ -44,12 +44,14 @@ WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Mo
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(12, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/019 Setting Custom Field - Accounting/OBJ.019.001 Tab accounting'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/020 Setting Custom Field - Maintenance Routine/OBJ.020.001 Tab maintance routine'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
@@ -68,7 +70,8 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.015 Option active'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.016 Dropdown field name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.016 Dropdown field name'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -76,7 +79,8 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.017 Option all'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.018 Dropdown data type'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.018 Dropdown data type'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -123,5 +127,5 @@ WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Inform
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.takeScreenshot('C:/Users/aplikasi internal/Documents/FOLDER AUTOMATE TEST TAG SAMURAI V2/v2-webtagsam/Screenshot/TC.SET.011.002.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('C:/Users/aplikasi internal/Documents/FOLDER AUTOMATE TEST TAG SAMURAI V2/v2-webtagsam/Screenshot/TC.SET.012.002.png', FailureHandling.STOP_ON_FAILURE)
 

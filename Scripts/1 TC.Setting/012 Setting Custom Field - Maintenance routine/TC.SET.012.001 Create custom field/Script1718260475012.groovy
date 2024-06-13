@@ -23,7 +23,7 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.emailc4)
 
@@ -44,43 +44,71 @@ WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Mo
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), 
+    FailureHandling.STOP_ON_FAILURE)
 
+'\r\n'
+WebUI.delay(12, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/020 Setting Custom Field - Maintenance Routine/OBJ.020.001 Tab maintance routine'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/018 Setting custom field - Purchase/OBJ.018.001 Tab purchase'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.002 Create'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.025 Search'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.003 Input create'), 'Test numeric')
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.004 Dropdown'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.026 Input search'), 'ele')
-
-'\r\n'
-WebUI.sendKeys(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.026 Input search'), Keys.chord(
-        Keys.ENTER))
+WebUI.click(findTestObject('02 Setting/020 Setting Custom Field - Maintenance Routine/OBJ.020.002 Option numeric'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.043 Option action'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.005 Yes req'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/018 Setting custom field - Purchase/OBJ.018.002 No req'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.006 Select category'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.044 Action delete'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.007 Input Search cat'), 
+    'Chess')
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.051 Sumbit delete'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.008 Select cat'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.009 Button select cat'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('C:/Users/aplikasi internal/Documents/Clone TS V2/v2-webtagsam/Screenshot/TC.SET.010.005.png', FailureHandling.STOP_ON_FAILURE)
+'\r\n'
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.010 Stay on this form check'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.011 Submit create'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.takeScreenshot('C:/Users/aplikasi internal/Documents/FOLDER AUTOMATE TEST TAG SAMURAI V2/v2-webtagsam/Screenshot/TC.SET.012.001.png', FailureHandling.STOP_ON_FAILURE)
 

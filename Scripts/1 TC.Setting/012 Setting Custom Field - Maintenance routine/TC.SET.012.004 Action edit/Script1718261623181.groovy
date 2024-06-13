@@ -44,12 +44,14 @@ WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Mo
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/018 Setting custom field - Purchase/OBJ.018.001 Tab purchase'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/020 Setting Custom Field - Maintenance Routine/OBJ.020.001 Tab maintance routine'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -59,7 +61,7 @@ WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Inform
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.026 Input search'), 'ele')
+WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.026 Input search'), 'test')
 
 '\r\n'
 WebUI.sendKeys(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.026 Input search'), Keys.chord(
@@ -73,14 +75,34 @@ WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Inform
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.044 Action delete'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.045 Action edit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.051 Sumbit delete'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.050 Input name edit'), 'Test edited')
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.004 Dropdown'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('C:/Users/aplikasi internal/Documents/Clone TS V2/v2-webtagsam/Screenshot/TC.SET.010.005.png', FailureHandling.STOP_ON_FAILURE)
+'\r\n'
+WebUI.click(findTestObject('02 Setting/020 Setting Custom Field - Maintenance Routine/OBJ.020.003 Option phone'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/018 Setting custom field - Purchase/OBJ.018.002 No req'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.049 Save edit'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.takeScreenshot('C:/Users/aplikasi internal/Documents/FOLDER AUTOMATE TEST TAG SAMURAI V2/v2-webtagsam/Screenshot/TC.SET.012.004.png', 
+    FailureHandling.STOP_ON_FAILURE)
 
