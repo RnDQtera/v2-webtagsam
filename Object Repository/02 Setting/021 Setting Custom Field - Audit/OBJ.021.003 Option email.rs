@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.017.003 Input create</name>
+   <name>OBJ.021.003 Option email</name>
    <tag></tag>
-   <elementGuidId>0dab105a-c5f6-42c4-bf75-a4d8273bee9c</elementGuidId>
+   <elementGuidId>7f05f6d9-cc0a-499a-9d70-fb6594cc412d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/form/div/div/div/div[1]/div/input</value>
+         <value>/html/body/div[7]/div/ul/li[10]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

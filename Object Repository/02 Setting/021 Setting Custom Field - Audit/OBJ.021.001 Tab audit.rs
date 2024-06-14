@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.017.003 Input create</name>
+   <name>OBJ.021.001 Tab audit</name>
    <tag></tag>
-   <elementGuidId>0dab105a-c5f6-42c4-bf75-a4d8273bee9c</elementGuidId>
+   <elementGuidId>c57dd41f-d39d-43bc-9474-e94c356d7c4a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/form/div/div/div/div[1]/div/input</value>
+         <value>/html/body/main/div/div/div[2]/div/div/div[1]/ul/li[5]/a/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
