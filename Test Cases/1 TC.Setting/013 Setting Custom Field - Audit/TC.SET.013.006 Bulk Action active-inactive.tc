@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.013.006 Bulk Action active-inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5b29c18-b8d9-4011-9945-a762ffc29554</testCaseGuid>
+</TestCaseEntity>
