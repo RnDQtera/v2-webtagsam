@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.011.003 Field First Name</name>
+   <name>OBJ.001.050 Apply Filter</name>
    <tag></tag>
-   <elementGuidId>9a328103-e85c-4b4f-ad24-d4f221a5acd3</elementGuidId>
+   <elementGuidId>c7830e01-1bc0-4a93-bd3c-fe180bb3c777</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/div/div[2]/form/div/div/div/div/div[1]/div/input</value>
+         <value>/html/body/main/div/div/div[2]/div/div/div/div[2]/div[8]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -33,4 +33,5 @@ WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.003 Submit Logi
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Scre/TC.Log.001.001-login.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshotAsCheckpoint('Scre/TC.Log.001.001-login.png', [])
+

@@ -41,7 +41,7 @@ WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.002 Menu All Ass
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.020 Tab Available'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.046 Tab Borrowed Asset'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 

@@ -45,6 +45,14 @@ WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.020 Tab Available'),
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.047 Select Button FIlter'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.048 Select Filter Tag'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.049 Choose Non Tag'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.050 Apply Filter'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.001 Single Action'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('03 Transaction/001 Borrowing/OBJ.001.002 Add to Borrowing Pre-List'), FailureHandling.STOP_ON_FAILURE)
