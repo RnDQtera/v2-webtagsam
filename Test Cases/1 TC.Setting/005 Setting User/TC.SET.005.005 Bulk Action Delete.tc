@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.SET.005.004 Bulk Action Delete</name>
+   <name>TC.SET.005.005 Bulk Action Delete</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
