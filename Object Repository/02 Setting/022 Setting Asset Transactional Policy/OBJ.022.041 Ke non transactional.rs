@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.022.031 Dropdown old value</name>
+   <name>OBJ.022.041 Ke non transactional</name>
    <tag></tag>
-   <elementGuidId>a2cc90d6-7f72-4c1b-afb1-795c953876e8</elementGuidId>
+   <elementGuidId>1d7ede41-7ebd-4747-9d38-f4d2139f7a07</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/div/div[2]</value>
+         <value>/html/body/div[5]/ul/li[2]/div/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,10 +7,9 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;single-spa-application:@tagsamurai/ts-mfe-modules&quot;]/div/div/div[3]/div[2]/div[2]/div[1]/button</value>
+         <value>/html/body/main/div/div/div/div[2]/div[2]/div[2]/div[1]/button/div/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

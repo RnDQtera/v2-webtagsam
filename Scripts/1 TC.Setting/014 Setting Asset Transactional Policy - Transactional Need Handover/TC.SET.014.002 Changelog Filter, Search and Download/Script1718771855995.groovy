@@ -52,7 +52,7 @@ WebUI.delay(12, FailureHandling.STOP_ON_FAILURE)
 '\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.022 Button changelog'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(11, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.023 Button search'), FailureHandling.STOP_ON_FAILURE)

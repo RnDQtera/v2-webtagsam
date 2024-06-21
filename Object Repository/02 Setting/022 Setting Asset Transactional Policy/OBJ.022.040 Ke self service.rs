@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.022.031 Dropdown old value</name>
+   <name>OBJ.022.040 Ke self service</name>
    <tag></tag>
-   <elementGuidId>a2cc90d6-7f72-4c1b-afb1-795c953876e8</elementGuidId>
+   <elementGuidId>116edab6-92be-472d-af32-5e19bfa26061</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/div/div[2]</value>
+         <value>/html/body/div[5]/ul/li[1]/div/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

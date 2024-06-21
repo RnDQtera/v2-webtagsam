@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.022.031 Dropdown old value</name>
+   <name>OBJ.022.039 Single option</name>
    <tag></tag>
-   <elementGuidId>a2cc90d6-7f72-4c1b-afb1-795c953876e8</elementGuidId>
+   <elementGuidId>225f2b01-52f9-4fd3-82d1-832e728c21e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/div/div[2]</value>
+         <value>/html/body/main/div/div/div[2]/div/div/div[5]/div[1]/table/tbody/tr[1]/td[9]/div/button/i</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
