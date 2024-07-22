@@ -49,4 +49,9 @@
       <initValue>'userv2@mailnesia.com'</initValue>
       <name>usernamev2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'passbaru'</initValue>
+      <name>passv2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
