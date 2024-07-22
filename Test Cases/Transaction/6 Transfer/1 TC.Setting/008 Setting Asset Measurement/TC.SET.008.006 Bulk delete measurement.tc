@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.008.006 Bulk delete measurement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04da1e7c-0bba-420c-b0a0-55d3c36995d7</testCaseGuid>
+</TestCaseEntity>

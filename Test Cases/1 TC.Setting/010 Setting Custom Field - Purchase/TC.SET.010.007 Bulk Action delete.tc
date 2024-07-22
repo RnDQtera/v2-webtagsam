@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.SET.010.007 Bulk Action delete</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>393ec225-6f7d-448a-91ce-8bd339531180</testCaseGuid>
-</TestCaseEntity>

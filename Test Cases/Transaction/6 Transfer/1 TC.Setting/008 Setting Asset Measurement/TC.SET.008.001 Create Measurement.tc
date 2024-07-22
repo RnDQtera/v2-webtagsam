@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.008.001 Create Measurement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc4005b8-1d02-438b-9d40-bc5e5bfcca27</testCaseGuid>
+</TestCaseEntity>

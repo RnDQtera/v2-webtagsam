@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.008.004 Edit measurement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92f564c6-6054-4f9b-89b3-3c8af7794ddf</testCaseGuid>
+</TestCaseEntity>
