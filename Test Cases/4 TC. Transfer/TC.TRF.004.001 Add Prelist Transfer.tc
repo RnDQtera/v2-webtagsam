@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.TRF.004.001 Add Prelist Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8b7b202-008d-4f1c-ac15-07f402129115</testCaseGuid>
+</TestCaseEntity>

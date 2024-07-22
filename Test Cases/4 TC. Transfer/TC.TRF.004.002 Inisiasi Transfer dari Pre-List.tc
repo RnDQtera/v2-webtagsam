@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.TRF.004.002 Inisiasi Transfer dari Pre-List</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>380dddda-489b-48a0-96c8-cb934a4aee7a</testCaseGuid>
+</TestCaseEntity>

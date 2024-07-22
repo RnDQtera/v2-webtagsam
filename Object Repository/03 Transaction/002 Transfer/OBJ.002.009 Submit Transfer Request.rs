@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.003.001 Select Modul Fixed Asset</name>
+   <name>OBJ.002.009 Submit Transfer Request</name>
    <tag></tag>
-   <elementGuidId>11ab697e-3724-4baf-a10c-a1e9ff26706a</elementGuidId>
+   <elementGuidId>e179e6a1-24cd-43e7-bd12-a62721adccb2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html/body/main/div/div/div/div[2]/div[2]/div[2]/div[1]/button</value>
+         <value>/html/body/main/div/div/div[2]/div/div/div[5]/div/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.003.001 Select Modul Fixed Asset</name>
+   <name>OBJ.002.002 Search Destination for Transfer Pre-list</name>
    <tag></tag>
-   <elementGuidId>11ab697e-3724-4baf-a10c-a1e9ff26706a</elementGuidId>
+   <elementGuidId>683f6868-acf4-484d-bb1b-eb01eeb47c6e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html/body/main/div/div/div/div[2]/div[2]/div[2]/div[1]/button</value>
+         <value>/html/body/div[5]/div/div[1]/div[1]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
