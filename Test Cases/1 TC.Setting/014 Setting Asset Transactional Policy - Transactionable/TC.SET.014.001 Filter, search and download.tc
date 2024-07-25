@@ -4,5 +4,6 @@
    <name>TC.SET.014.001 Filter, search and download</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e18ffad3-d00d-436e-8b7e-f1f2d6507400</testCaseGuid>
 </TestCaseEntity>

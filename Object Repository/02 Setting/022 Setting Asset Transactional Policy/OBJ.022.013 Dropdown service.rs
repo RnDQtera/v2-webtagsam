@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.022.014 Option 3 model</name>
+   <name>OBJ.022.013 Dropdown service</name>
    <tag></tag>
-   <elementGuidId>d0c84025-e97f-4cce-8351-fbff4817ef9f</elementGuidId>
+   <elementGuidId>2a8b1ece-1113-4e39-b6e0-a4a728a19386</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/div[2]/ul/li[3]</value>
+         <value>/html/body/div[1]/main/div/div/div[2]/div/div/div[3]/div[5]/div/div/div[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

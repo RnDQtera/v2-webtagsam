@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.emailc4)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.idqatester)
 
 WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
 
@@ -93,18 +93,25 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.012 Option 2 model'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.013 Option 5 model'), FailureHandling.STOP_ON_FAILURE)
-
-'\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.014 Option 3 model'), FailureHandling.STOP_ON_FAILURE)
-
-'\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.015 Select cat'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
+WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.043 Search filter'), 'chess')
+
+'\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.016 Cat 1'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.017 Button select cat'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.015 Select cat'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.017 Button select cat'), FailureHandling.STOP_ON_FAILURE)
@@ -120,6 +127,14 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.019 Option 1 status'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.013 Dropdown service'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.014 Option 1 Service'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.020 Apply filter'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
@@ -128,6 +143,5 @@ WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OB
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.takeScreenshot('C:/Users/aplikasi internal/Documents/FOLDER AUTOMATE TEST TAG SAMURAI V2/v2-webtagsam/Screenshot/TC.SET.014.001.png', 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('C:/Users/DELL/Documents/Clone Git/v2-webtagsam/Screenshot/TC.SET.014.001.png', FailureHandling.STOP_ON_FAILURE)
 
