@@ -54,4 +54,9 @@
       <initValue>'passbaru'</initValue>
       <name>passv2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qatester@mailnesia.com'</initValue>
+      <name>idqatester</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

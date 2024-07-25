@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/div[2]/ul/li[2]</value>
+         <value>/html/body/div[6]/div[1]/div[1]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

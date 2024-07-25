@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.014.005 Move to non-transactional</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05ec57fd-4e38-41f1-92bf-4d36d9c192c5</testCaseGuid>
+</TestCaseEntity>

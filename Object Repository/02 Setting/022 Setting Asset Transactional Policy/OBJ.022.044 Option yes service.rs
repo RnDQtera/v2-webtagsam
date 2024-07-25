@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.022.004 Button filter</name>
+   <name>OBJ.022.044 Option yes service</name>
    <tag></tag>
-   <elementGuidId>9d0c6dba-e99b-499e-a89f-e752101ccb40</elementGuidId>
+   <elementGuidId>b6254bad-1abc-4ed5-ab8f-c904e70f3097</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/main/div/div/div[2]/div/div/div[2]/div[2]/button[1]/i</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div[6]/div[2]/ul/li[1]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
