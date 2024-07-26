@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.016.003 Cancel Change depreciation method</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d41fbfa-8d97-4a46-b53d-04416f971f50</testCaseGuid>
+</TestCaseEntity>
