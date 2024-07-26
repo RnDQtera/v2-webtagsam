@@ -44,67 +44,67 @@ WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Mo
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.001 Menu asset transactional policy'), 
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.001 Menu asset transactional policy'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(12, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.002 Button search'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.002 Button search'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.003 Input Search'), 'a')
+WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.003 Input Search'), 'a')
 
 '\r\n'
-WebUI.sendKeys(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.003 Input Search'), Keys.chord(
+WebUI.sendKeys(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.003 Input Search'), Keys.chord(
         Keys.ENTER))
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.004 Button filter'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.004 Button filter'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.018 Dropdown status'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.018 Dropdown status'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.019 Option 1 status'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.019 Option 1 status'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.013 Dropdown service'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.013 Dropdown service'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.044 Option yes service'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.044 Option yes service'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.020 Apply filter'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.020 Apply filter'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.045 Asset 1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.045 Asset 1'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.046 Asset 2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.046 Asset 2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.047 Bulk action'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.047 Bulk action'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.048 Move to self service'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.048 Move to self service'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.049 Continue bulk'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.049 Continue bulk'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
