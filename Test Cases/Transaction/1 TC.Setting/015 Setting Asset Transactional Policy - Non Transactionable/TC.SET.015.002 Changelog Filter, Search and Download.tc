@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.SET.014.004 remove from self service</name>
+   <name>TC.SET.015.002 Changelog Filter, Search and Download</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>59d63ea1-bd17-49f9-90d6-eefcec85c961</testCaseGuid>
+   <testCaseGuid>a1a8dca8-bbf0-4496-9be9-b26bebfb4bc3</testCaseGuid>
 </TestCaseEntity>
