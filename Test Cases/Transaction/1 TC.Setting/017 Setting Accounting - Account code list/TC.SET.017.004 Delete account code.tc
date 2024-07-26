@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.017.004 Delete account code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f388d3f-14f6-43f7-9b17-1ac3a54c35cf</testCaseGuid>
+</TestCaseEntity>

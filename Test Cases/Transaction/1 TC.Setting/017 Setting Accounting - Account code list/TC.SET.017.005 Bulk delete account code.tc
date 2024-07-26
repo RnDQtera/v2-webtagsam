@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.017.005 Bulk delete account code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7dff8243-4ee7-4954-b2cf-82f03b0feeb7</testCaseGuid>
+</TestCaseEntity>
