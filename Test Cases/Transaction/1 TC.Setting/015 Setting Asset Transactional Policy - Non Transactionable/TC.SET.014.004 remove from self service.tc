@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.014.004 remove from self service</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59d63ea1-bd17-49f9-90d6-eefcec85c961</testCaseGuid>
+</TestCaseEntity>

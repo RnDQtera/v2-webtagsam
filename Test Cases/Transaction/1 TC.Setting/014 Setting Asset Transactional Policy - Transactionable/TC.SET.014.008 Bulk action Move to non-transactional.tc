@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.014.008 Bulk action Move to non-transactional</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>120e5301-5d9e-4c43-9073-400a50ea21cb</testCaseGuid>
+</TestCaseEntity>

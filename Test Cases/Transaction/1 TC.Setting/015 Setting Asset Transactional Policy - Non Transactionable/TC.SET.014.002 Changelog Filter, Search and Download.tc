@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.014.002 Changelog Filter, Search and Download</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1a8dca8-bbf0-4496-9be9-b26bebfb4bc3</testCaseGuid>
+</TestCaseEntity>
