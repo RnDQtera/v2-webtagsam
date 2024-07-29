@@ -25,9 +25,9 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id2)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.Pw2)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -47,9 +47,11 @@ WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.001 Button Changelog'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.002 Search Data Changelog'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('01 Asset/003 Change Log/OBJ.003.003 Text Field Search'), 'Maspion')
+WebUI.setText(findTestObject('01 Asset/003 Change Log/OBJ.003.003 Text Field Search'), 'Black')
 
 WebUI.sendKeys(findTestObject('01 Asset/003 Change Log/OBJ.003.003 Text Field Search'), Keys.chord(Keys.ENTER))
 
@@ -61,9 +63,13 @@ WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.005 Closed Text Fiel
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.006 Button FIilter Change Log'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('01 Asset/003 Change Log/OBJ.003.007 Field Date'), '01/05/2024 - 30/05/2024')
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('01 Asset/003 Change Log/OBJ.003.007 Field Date'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.007 Field Date'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.021 Start Date'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.022 End Date'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.008 Select Filter Action Changelog'), FailureHandling.STOP_ON_FAILURE)
 
