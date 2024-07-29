@@ -25,15 +25,17 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id2)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.Pw2)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.001 Menu Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
 
@@ -45,7 +47,7 @@ WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.003 Menu Registe
 
 WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.004 Select Group Register Asset'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('01 Asset/001 Register Asset/OBJ.001.005 Search Group in Register Asset'), 'Testing Area')
+WebUI.setText(findTestObject('01 Asset/001 Register Asset/OBJ.001.005 Search Group in Register Asset'), 'QA Area')
 
 WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.006 Select Group in Register Asset'), FailureHandling.STOP_ON_FAILURE)
 
@@ -87,21 +89,7 @@ WebUI.uploadFile(findTestObject('01 Asset/001 Register Asset/OBJ.001.018 Upload 
 
 WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.019 Apply Foto'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.020 Select Custom Field Warna'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.021 Choose Custom Field Warna'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('01 Asset/001 Register Asset/OBJ.001.022 Input Qty'), '3')
-
-WebUI.setText(findTestObject('01 Asset/001 Register Asset/OBJ.001.025 Input Custom FIeld 3'), '90')
-
-WebUI.setText(findTestObject('01 Asset/001 Register Asset/OBJ.001.026 Input Custom FIeld 4'), '90')
-
-WebUI.setText(findTestObject('01 Asset/001 Register Asset/OBJ.001.027 Input Custom FIeld 5'), '90')
-
-WebUI.setText(findTestObject('01 Asset/001 Register Asset/OBJ.001.028 Input Custom FIeld 6'), '90')
-
-WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.030 Stay on This Page'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('01 Asset/001 Register Asset/OBJ.001.022 Input Qty'), '1')
 
 WebUI.click(findTestObject('01 Asset/001 Register Asset/OBJ.001.031 Submit Register Asset'), FailureHandling.STOP_ON_FAILURE)
 
