@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.FM.001.001 Search and filter - blm selesai</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>640c1c39-178f-4bc4-9a39-7da60cd94084</testCaseGuid>
+</TestCaseEntity>
