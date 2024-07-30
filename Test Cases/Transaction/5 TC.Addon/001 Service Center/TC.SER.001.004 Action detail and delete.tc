@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SER.001.004 Action detail and delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c69d4b5-2944-4618-a8c2-e3ad48117715</testCaseGuid>
+</TestCaseEntity>

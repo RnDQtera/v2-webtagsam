@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SER.001.005 Bulk inactive, active dan delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be08b863-11a6-4fc3-8f4c-3ab69e6fc411</testCaseGuid>
+</TestCaseEntity>

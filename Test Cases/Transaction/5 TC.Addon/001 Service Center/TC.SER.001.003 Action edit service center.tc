@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SER.001.003 Action edit service center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da643f60-54d8-4d0b-8269-99b576a7323c</testCaseGuid>
+</TestCaseEntity>

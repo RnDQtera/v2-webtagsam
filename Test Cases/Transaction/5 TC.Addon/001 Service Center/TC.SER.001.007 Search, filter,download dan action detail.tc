@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SER.001.007 Search, filter,download dan action detail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>145413b4-da60-4678-a017-62aa97adbb15</testCaseGuid>
+</TestCaseEntity>
