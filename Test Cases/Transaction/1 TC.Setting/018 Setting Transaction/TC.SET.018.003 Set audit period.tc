@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.018.003 Set audit period</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>543b676b-aa34-446c-a4cd-ea3876889cba</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.018.002 Changelog transaction time</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bab827b8-73b4-451e-8f51-57baca1d9e90</testCaseGuid>
+</TestCaseEntity>

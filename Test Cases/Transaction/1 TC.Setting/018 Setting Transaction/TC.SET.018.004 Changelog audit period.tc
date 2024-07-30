@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.018.004 Changelog audit period</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f6ffae0-bd75-41ea-9586-6af6dffd5451</testCaseGuid>
+</TestCaseEntity>

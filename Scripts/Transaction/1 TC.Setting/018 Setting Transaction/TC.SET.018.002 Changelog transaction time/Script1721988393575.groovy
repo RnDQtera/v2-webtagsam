@@ -33,68 +33,80 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('02 Setting/001 Login and OTP/OBJ.001.003 Submit Login'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.001 Select Modul Fixed Asset'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.001 Select custom field'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.001 Tab transaction'), FailureHandling.STOP_ON_FAILURE)
 
-'\r\n'
-WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-'\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.002 Create'), FailureHandling.STOP_ON_FAILURE)
+'changelog ini kadang bisa kadang ngga, tergantung tab broswer\r\n\r\n'
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.006 Button changelog'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.003 Input create'), 'Test textarea')
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.007 Button search'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.004 Dropdown'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.008 Input search'), 'max borrow')
+
+'\r\n'
+WebUI.sendKeys(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.008 Input search'), Keys.chord(Keys.ENTER))
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.009 Button filter'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'date ini ga konsisten\r\n'
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.010 Date'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.012 Option textarea'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.011 Tgl 1'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.012 Tgl 31'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.013 Dropdown field'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.005 Yes req'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.014 Option 3 field'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.006 Select category'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.015 Dropdown mod by'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.007 Input Search cat'), 
-    'For testing')
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.016 CB ALL'), FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.017 Apply filter'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.008 Select cat'), FailureHandling.STOP_ON_FAILURE)
-
-'\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.009 Button select cat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/026 Setting - Transaction/OBJ.026.018 Download'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.010 Stay on this form check'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('C:/Users/DELL/Documents/Clone Git/clone otomasti v2/v2-webtagsam/Screenshot/TC.SET.018.002.png', FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/017 Setting Custom Field - General Information/OBJ.017.011 Submit create'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-'\r\n'
-WebUI.takeScreenshot('C:/Users/aplikasi internal/Documents/Clone TS V2/v2-webtagsam/Screenshot/TC.SET.009.001.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 
