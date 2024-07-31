@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.DAM.001.007 Bulk action cancel report disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99461afd-e1fd-4ac2-881f-34947de0dc2f</testCaseGuid>
+</TestCaseEntity>

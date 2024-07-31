@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.DAM.001.004 Action mark as repair</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f36eaca9-871d-4f77-8a8c-7a894e50ddfb</testCaseGuid>
+</TestCaseEntity>

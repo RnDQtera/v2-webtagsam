@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.DAM.001.008 Bulk action mark as repair</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb8681b5-f2f5-4be7-98e3-22bbd81c5268</testCaseGuid>
+</TestCaseEntity>

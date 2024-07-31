@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.DAM.001.009 Search, filter, download and action missing log</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4bcbdc63-2e3f-46bd-bd43-42e8b9c9403b</testCaseGuid>
+</TestCaseEntity>
