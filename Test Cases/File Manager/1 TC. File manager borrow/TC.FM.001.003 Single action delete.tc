@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.FM.001.003 Single action delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3cfeb37-aa3a-4b92-bb17-cb391141c1e7</testCaseGuid>
+</TestCaseEntity>

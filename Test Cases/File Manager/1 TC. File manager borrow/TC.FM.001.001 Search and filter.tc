@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.FM.001.001 Search and filter - blm selesai</name>
+   <name>TC.FM.001.001 Search and filter</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

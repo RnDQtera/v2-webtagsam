@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.001.004 Button filter</name>
+   <name>OBJ.002.005 Submit permanently damaged</name>
    <tag></tag>
-   <elementGuidId>6052229f-fcc8-43c7-8301-8c94b17e90c0</elementGuidId>
+   <elementGuidId>44414ece-1f3a-4fff-a746-4dc0b9e06188</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/main/div/div/div[2]/div/div/div[3]/div[1]/div[2]/button[1]</value>
+         <value>/html/body/div[9]/div/div[3]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

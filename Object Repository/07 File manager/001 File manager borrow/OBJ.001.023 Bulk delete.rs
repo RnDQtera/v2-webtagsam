@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OBJ.001.004 Button filter</name>
+   <name>OBJ.001.023 Bulk delete</name>
    <tag></tag>
-   <elementGuidId>6052229f-fcc8-43c7-8301-8c94b17e90c0</elementGuidId>
+   <elementGuidId>dabdfc0a-8f57-4610-8791-803b49528bee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/main/div/div/div[2]/div/div/div[3]/div[1]/div[2]/button[1]</value>
+         <value>/html/body/div[7]/ul/li/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

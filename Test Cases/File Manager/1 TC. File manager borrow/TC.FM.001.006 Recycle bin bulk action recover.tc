@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.FM.001.006 Recycle bin bulk action recover</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6cca39b0-7031-4416-aab3-51a3175bbe85</testCaseGuid>
+</TestCaseEntity>

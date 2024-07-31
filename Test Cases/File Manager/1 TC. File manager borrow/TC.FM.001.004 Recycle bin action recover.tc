@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.FM.001.004 Recycle bin action recover</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a13d2fee-1e4e-4e90-9b0d-e6a11dd99ca3</testCaseGuid>
+</TestCaseEntity>
