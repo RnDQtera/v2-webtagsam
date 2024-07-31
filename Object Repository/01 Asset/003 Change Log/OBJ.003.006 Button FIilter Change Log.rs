@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[2]/div[1]/div/span/input</value>
+         <value>/html/body/div[3]/div/div[2]/div/div[1]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

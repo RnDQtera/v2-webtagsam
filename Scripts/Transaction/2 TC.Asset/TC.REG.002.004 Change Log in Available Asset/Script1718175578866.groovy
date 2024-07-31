@@ -51,13 +51,16 @@ WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.002 Search Data Changelog'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.003 Text Field Search'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('01 Asset/003 Change Log/OBJ.003.003 Text Field Search'), 'Black')
 
 WebUI.sendKeys(findTestObject('01 Asset/003 Change Log/OBJ.003.003 Text Field Search'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('01 Asset/003 Change Log/OBJ.003.003 Text Field Search'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE, 
+        Keys.ENTER))
 
-WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.004 Clear Field Search Data Changelog'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.005 Closed Text Field'), FailureHandling.STOP_ON_FAILURE)
 
@@ -75,17 +78,23 @@ WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.008 Select Filter Ac
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.009 Search Filter Action Changelog'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('01 Asset/003 Change Log/OBJ.003.009 Search Filter Action Changelog'), 'Create')
+
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.010 Choose Filter Action Changelog'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.011 Select Filter Name Changelog'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.012 Search Filter Name Changelog'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('01 Asset/003 Change Log/OBJ.003.012 Search Filter Name Changelog'), 'Laptop RFID dan QR - 8')
+
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.013 Choose Filter Name Changelog'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.014 Select Filter Field Changelog'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.015 Search Filter Field Changelog'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('01 Asset/003 Change Log/OBJ.003.015 Search Filter Field Changelog'), '')
 
 WebUI.click(findTestObject('01 Asset/003 Change Log/OBJ.003.016 Choose Filter Field Changelog'), FailureHandling.STOP_ON_FAILURE)
 
