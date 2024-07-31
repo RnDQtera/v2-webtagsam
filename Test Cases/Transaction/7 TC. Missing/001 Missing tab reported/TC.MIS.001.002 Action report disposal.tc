@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MIS.001.002 Action report disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df2e03b2-e352-4f27-9738-cc5e6862af04</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MIS.001.006 Bulk action report disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f1d4302-1fae-4375-b6bc-dbab19cf0e8c</testCaseGuid>
+</TestCaseEntity>

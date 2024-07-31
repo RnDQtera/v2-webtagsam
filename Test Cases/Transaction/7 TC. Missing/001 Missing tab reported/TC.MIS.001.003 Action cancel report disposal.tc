@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MIS.001.003 Action cancel report disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a862114-cfc5-4e2a-bc35-cc8873ceb656</testCaseGuid>
+</TestCaseEntity>

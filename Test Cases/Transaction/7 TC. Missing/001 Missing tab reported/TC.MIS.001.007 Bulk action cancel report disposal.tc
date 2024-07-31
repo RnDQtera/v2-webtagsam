@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MIS.001.007 Bulk action cancel report disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>234d0f05-db36-4035-b9a4-e21f0aad5de3</testCaseGuid>
+</TestCaseEntity>
