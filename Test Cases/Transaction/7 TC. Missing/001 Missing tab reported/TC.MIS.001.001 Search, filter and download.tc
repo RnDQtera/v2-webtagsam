@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MIS.001.001 Search, filter and download</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a2d6f572-e0a2-4b99-8c41-23ee72b4bf47</testCaseGuid>
+</TestCaseEntity>

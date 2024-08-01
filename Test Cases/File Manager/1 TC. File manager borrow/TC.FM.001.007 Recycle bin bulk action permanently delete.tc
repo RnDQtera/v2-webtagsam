@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.FM.001.007 Recycle bin bulk action permanently delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6a1bc0d-fb1d-4f60-b52b-eb828c6c8245</testCaseGuid>
+</TestCaseEntity>

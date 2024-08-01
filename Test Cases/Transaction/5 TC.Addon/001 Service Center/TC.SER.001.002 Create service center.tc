@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SER.001.002 Create service center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>18e4c40c-834f-40cf-87e7-0beb341f2fab</testCaseGuid>
+</TestCaseEntity>

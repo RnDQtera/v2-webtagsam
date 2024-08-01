@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.DAM.001.003 Action cancel report disposal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3cd38df2-5ba7-4ef7-9ec7-3a0a72443e0a</testCaseGuid>
+</TestCaseEntity>

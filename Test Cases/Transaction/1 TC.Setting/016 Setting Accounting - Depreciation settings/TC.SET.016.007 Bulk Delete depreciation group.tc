@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.016.007 Bulk Delete depreciation group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fbd2342d-c1bf-425d-b78e-79f292fb0287</testCaseGuid>
+</TestCaseEntity>

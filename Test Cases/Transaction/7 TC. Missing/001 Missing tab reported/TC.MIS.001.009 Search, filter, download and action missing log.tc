@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.MIS.001.009 Search, filter, download and action missing log</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7a96d2e-209d-4d20-8836-8de905801178</testCaseGuid>
+</TestCaseEntity>

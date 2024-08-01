@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.FM.001.009 Recycle bin permanently delete all</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c7ad026-66a5-429b-b651-ea6d214a5826</testCaseGuid>
+</TestCaseEntity>

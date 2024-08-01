@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.017.003 Edit account code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ceeac4db-d8c0-4101-a9b0-6883813be21a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.014.006 Bulk action Move to self service</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43d812a4-20ad-4d90-9182-e32a2cc1c06a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.015.004 Bulk action Move to transactionble</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf397d3d-e834-4c60-bc3a-e43d3a67f37d</testCaseGuid>
+</TestCaseEntity>

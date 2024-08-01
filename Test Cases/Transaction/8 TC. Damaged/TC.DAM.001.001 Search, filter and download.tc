@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.DAM.001.001 Search, filter and download</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>383b438b-7bbc-42e1-a893-8aa8fcce8a29</testCaseGuid>
+</TestCaseEntity>
