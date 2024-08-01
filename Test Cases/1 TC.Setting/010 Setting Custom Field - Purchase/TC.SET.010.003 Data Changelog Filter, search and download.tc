@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.SET.010.003 Data Changelog Filter, search and download</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>edb1d6b8-409d-4352-9158-135a65881754</testCaseGuid>
-</TestCaseEntity>

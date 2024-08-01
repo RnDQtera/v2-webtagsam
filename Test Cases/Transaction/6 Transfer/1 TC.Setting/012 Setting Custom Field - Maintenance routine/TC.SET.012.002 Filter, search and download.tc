@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.SET.012.002 Filter, search and download</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70bb2c5f-448b-45f1-bd6d-b0983487d014</testCaseGuid>
+</TestCaseEntity>
