@@ -25,9 +25,9 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.idqatester)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id2)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.Pw2)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -50,95 +50,125 @@ WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - 
 WebUI.delay(12, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.002 Button search'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.002 Button search'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.003 Input Search'), 'Pawn')
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.003 Input Search'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.sendKeys(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.003 Input Search'), Keys.chord(
-        Keys.ENTER))
+WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.003 Input Search'), 
+    'Laptop RFID dan QR')
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.004 Button filter'), FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.003 Input Search'), 
+    Keys.chord(Keys.ENTER))
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.005 Dropdown asset name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.003 Input Search'), 
+    Keys.chord(Keys.CONTROL, 'a', Keys.DELETE, Keys.ENTER))
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.004 Button filter'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.005 Dropdown asset name'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.006 Search asset name'), 'Pawn')
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.006 Search asset name'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.007 Option 1 asset name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.006 Search asset name'), 
+    'Laptop RFID dan QR')
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.008 Dropdown brand'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.007 Option 1 asset name'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.008 Dropdown brand'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.009 Search brand'), 'Kasparov')
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.009 Search brand'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.010 Option 1 brand'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.009 Search brand'), 
+    'Lenovo Thinkpad')
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.011 Dropdown model type'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.010 Option 1 brand'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.011 Dropdown model type'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.012 Option 2 model'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.012 Option 2 model'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.015 Select cat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.015 Select cat'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.043 Search filter'), 'chess')
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.043 Search filter'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.setText(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.043 Search filter'), 
+    'Laptop RFID dan QR')
 
 '\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.016 Cat 1'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.017 Button select cat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.017 Button select cat'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.015 Select cat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.018 Dropdown status'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.017 Button select cat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.019 Option 1 status'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.013 Dropdown service'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.018 Dropdown status'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-'\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.019 Option 1 status'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.013 Dropdown service'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-'\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.014 Option 1 Service'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.020 Apply filter'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.020 Apply filter'), FailureHandling.STOP_ON_FAILURE)
-
-'\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.021 Download button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.021 Download button'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

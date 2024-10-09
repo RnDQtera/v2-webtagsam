@@ -78,7 +78,7 @@ WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
-WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.014 Option 1 Service'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy - Transactionable/OBJ.022.020 Apply filter'), FailureHandling.STOP_ON_FAILURE)

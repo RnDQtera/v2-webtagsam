@@ -25,9 +25,9 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.emailc4)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.001 Email'), GlobalVariable.id2)
 
-WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.pass)
+WebUI.setText(findTestObject('02 Setting/001 Login and OTP/OBJ.001.002 Password'), GlobalVariable.Pw2)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -41,7 +41,7 @@ WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('02 Setting/003 Setting - Group/OBJ.003.002 Select Modul Setting'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
 
 '\r\n'
 WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OBJ.022.001 Menu asset transactional policy'), 
@@ -101,5 +101,4 @@ WebUI.click(findTestObject('02 Setting/022 Setting Asset Transactional Policy/OB
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('C:/Users/DELL/Documents/Clone Git/v2-webtagsam/Screenshot/TC.SET.014.003.png', FailureHandling.STOP_ON_FAILURE)
-
 
